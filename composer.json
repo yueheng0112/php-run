@@ -1,0 +1,20 @@
+{
+    "name": "fangzy/php-run",
+    "description": "php命令行运行框架",
+    "type": "project",
+    "require": {
+        "symfony/var-dumper": "^5.3"
+    },
+    "authors": [
+        {
+            "name": "fangzhongyi",
+            "email": "2522968417@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "app",
+            "core\\": "src\\core"
+        }
+    }
+}

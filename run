@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+
+namespace root;
+
+use core\App;
+
+require __DIR__ . '/vendor/autoload.php';
+
+(new App())->run();
