@@ -28,7 +28,7 @@ class App extends Container
 
     public function dispatch()
     {
-        return (new Dispatch())->run($this);
+        return (new Dispatch($this))->run();
     }
 
     private function bind()
