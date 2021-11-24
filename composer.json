@@ -1,7 +1,7 @@
 {
     "name": "fangzy/php-run",
     "description": "php命令行运行框架",
-    "type": "project",
+    "type": "library",
     "require": {
         "symfony/var-dumper": "^5.3"
     },
@@ -13,7 +13,6 @@
     ],
     "autoload": {
         "psr-4": {
-            "app\\": "app",
             "core\\": "src\\core"
         }
     }
